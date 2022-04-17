@@ -6,11 +6,17 @@
     padding-right: 15px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    background-color: rgb(234, 242, 245);
+    /*grid-column-gap: 10px;
+    grid-row-gap: 10px;*/
+    background-color: red;
 }
-
+/*
+body {
+    color: #434344;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+*/
 .header {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
@@ -25,6 +31,21 @@
     list-style-type: none;
 }
 
-.menu-item {
+.menu-item a {
     padding: 4px;
+    color: darkslategray;
 }
+
+.hero {
+    background: url('../images/pexels-pixabay-262713.jpg') center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, .5fr));
+    grid-template-rows: 450px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: none;
+} 
+  
+
+
