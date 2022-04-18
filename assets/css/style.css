@@ -9,13 +9,18 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color: darkslategrey;
 }
 
-h1, h2 {
+h1,
+h2,
+a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 3px;
+    color: darkslategrey;
 }
+
 .container {
     display: grid;
     height: 100vh;
@@ -41,36 +46,49 @@ h1, h2 {
 }
 
 .header {
-    background-color: burlywood;
+    color: darkslategrey;
     grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
 }
 
 .header nav ul {
     display: flex;
     list-style-type: none;
+    font-weight: 600;
 }
 
 .header nav li {
     margin-right: 15px;
+    font-weight: 600;
 }
 
 #logo {
-    font-size: 275%;  
+    font-size: 275%;
 }
 
-a:link { text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+}
 
 
-a:visited { text-decoration: none; }
+a:visited {
+    text-decoration: none;
+}
 
 
-a:hover { text-decoration: none; }
+a:hover {
+    text-decoration: underline;
+}
 
 
-a:active { text-decoration: none; }
+a:active {
+    text-decoration: underline;
+}
+
 
 .hero {
     background-color: rgb(135, 212, 222);
@@ -84,28 +102,28 @@ a:active { text-decoration: none; }
     background-color: rgba(200, 193, 207, 0.541);
     grid-area: bag-gallery-1;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-    
+
 }
 
 .bag-gallery-2 {
     background-color: rgba(118, 113, 122, 0.541);
     grid-area: bag-gallery-2;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-    
+
 }
 
 .bag-gallery-3 {
     background-color: rgba(97, 131, 145, 0.548);
     grid-area: bag-gallery-3;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-    
+
 }
 
 .bag-gallery-4 {
     background-color: rgba(193, 207, 206, 0.541);
     grid-area: bag-gallery-4;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-    
+
 }
 
 
@@ -134,7 +152,7 @@ a:active { text-decoration: none; }
     background-color: rgba(214, 123, 49, 0.541);
     grid-area: step-2-text;
 }
- 
+
 .step-3-img {
     background-color: rgba(94, 155, 119, 0.541);
     grid-area: step-3-img;
@@ -174,7 +192,7 @@ a:active { text-decoration: none; }
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: auto 450px 350px 350px 350px 350px auto;
-        grid-template-areas: 
+        grid-template-areas:
             "header"
             "hero"
             "bag-gallery-1"
@@ -206,7 +224,7 @@ a:active { text-decoration: none; }
     display: grid;
     grid-template-columns: 1fr;
     /*grid-template-columns: repeat(auto-fit, minmax(200px, .5fr));*/
-    /*grid-column-gap: 10px;
+/*grid-column-gap: 10px;
     grid-row-gap: 10px;
 
 .wrapper {
@@ -254,5 +272,3 @@ body {
     padding-right: 20px;
 } 
 */
-
-
