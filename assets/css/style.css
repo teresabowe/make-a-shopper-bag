@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:  auto 600px 350px auto;
+    grid-template-rows: auto 500px 300px auto;
     grid-template-areas:
         "header header header header"
         "hero hero hero hero"
@@ -32,30 +32,35 @@
     grid-area: hero;
     background: url('../images/pexels-pixabay-262713.jpg') center;
     background-position: bottom;
+    align-items: right;
 }
 
 .bag-gallery-1 {
     background-color: rgba(200, 193, 207, 0.541);
     grid-area: bag-gallery-1;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    
 }
 
 .bag-gallery-2 {
     background-color: rgba(118, 113, 122, 0.541);
     grid-area: bag-gallery-2;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    
 }
 
 .bag-gallery-3 {
     background-color: rgba(97, 131, 145, 0.548);
     grid-area: bag-gallery-3;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    
 }
 
 .bag-gallery-4 {
     background-color: rgba(193, 207, 206, 0.541);
     grid-area: bag-gallery-4;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    
 }
 
 
