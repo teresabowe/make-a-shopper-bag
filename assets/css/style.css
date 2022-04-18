@@ -8,12 +8,19 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 500px 300px auto;
+    grid-template-rows: 100px 500px 300px auto;
     grid-template-areas:
         "header header header header"
         "hero hero hero hero"
@@ -36,7 +43,34 @@ body {
 .header {
     background-color: burlywood;
     grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header nav li {
+    margin-right: 15px;
+}
+
+#logo {
+    font-size: 275%;  
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 
 .hero {
     background-color: rgb(135, 212, 222);
