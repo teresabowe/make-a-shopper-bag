@@ -90,15 +90,27 @@ a:active {
     text-decoration: underline;
 }
 
-
 .hero {
-    background-color: rgb(135, 212, 222);
     grid-area: hero;
     background: url('../images/pexels-pixabay-262713.jpg') center;
-    background-position: bottom;
-    align-items: right;
+    background-position: bottom; 
+    align-items: center;  
 }
 
+
+.hero > * {
+    color: white;
+}
+
+.hero > h2 {
+    font-size: 200%;
+}
+  
+.hero > a {
+    font-size: 200%;
+  
+}
+  
 .bag-gallery-1 {
     background-color: rgba(200, 193, 207, 0.541);
     grid-area: bag-gallery-1;
@@ -212,6 +224,14 @@ a:active {
             "step-5-img"
             "step-5-text"
             "footer";
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    #logo {
+        font-size: 175%;
     }
 }
 
