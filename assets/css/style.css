@@ -25,7 +25,7 @@ a {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 700px 200px 300px auto;
+    grid-template-rows: 100px 500px 200px 300px auto;
     grid-template-areas:
         "header header header header"
         "hero hero hero hero"
@@ -115,15 +115,11 @@ a:active {
 }
   
 .hero > a {
-    font-size: 150%;
-    align-self: center;
+    place-self: center;
     justify-self: left;
     background-color: goldenrod;
-    text-decoration: none;
     color: white;
     border-radius: .25rem;
-    text-align: center;
-    display: inline-block;
     padding: 1rem 1rem;
 }
 
@@ -131,6 +127,12 @@ a:active {
     grid-area: para;
     padding: 1rem 1rem;
     font-size: 150%;
+    font-weight: 500;
+}
+
+.para > h2 {
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
 }
 
 .bag-gallery-1 {
@@ -223,10 +225,10 @@ a:active {
     grid-area: footer;
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:500px) {
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: auto 450px 100px 350px 350px 350px 350px auto;
+        grid-template-rows: auto 450px 400px 350px 350px 350px 350px 350px auto;
         grid-template-areas:
             "header"
             "hero"
