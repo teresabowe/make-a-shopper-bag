@@ -118,11 +118,12 @@ a:active {
 
 .hero > a {
     place-self: center;
-    justify-self:center;
+    justify-self:left;
     background-color: goldenrod;
     color: white;
     border-radius: .25rem;
     padding: 1rem 1rem;
+    margin-left: 10%;
 } 
 
 
@@ -131,8 +132,8 @@ a:active {
     padding: 1rem 1rem;
     font-size: 120%;
     font-weight: 500;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: justify;
 }
 
@@ -177,7 +178,7 @@ a:active {
 
 .materials {
     background-color: rgba(73, 65, 82, 0.541);
-    
+    grid-area: materials;
 }
 
 
