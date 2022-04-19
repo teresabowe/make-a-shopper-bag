@@ -95,17 +95,18 @@ a:active {
 .hero {
     background: url('../images/pexels-pixabay-262713.jpg') center;
     background-size: cover;
-    /*background-position: bottom; */
+    background-position: center; 
     display:grid;
     grid-area: hero; 
     /*align-items: center;*/
     padding: 1rem 1rem;
 }
 
-
 .hero > * {
     color: white; 
-}
+} 
+
+
 
 .hero > h2 {
     font-size: 250%;
@@ -113,21 +114,26 @@ a:active {
     justify-self: left;
    
 }
-  
+
+
 .hero > a {
     place-self: center;
-    justify-self: left;
+    justify-self:center;
     background-color: goldenrod;
     color: white;
     border-radius: .25rem;
     padding: 1rem 1rem;
-}
+} 
+
 
 .para {
     grid-area: para;
     padding: 1rem 1rem;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 500;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: justify;
 }
 
 .para > h2 {
@@ -139,6 +145,8 @@ a:active {
     background-color: rgba(200, 193, 207, 0.541);
     grid-area: bag-gallery-1;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    border-radius: .25rem;
+    
 
 }
 
@@ -146,6 +154,8 @@ a:active {
     background-color: rgba(118, 113, 122, 0.541);
     grid-area: bag-gallery-2;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
+    border-radius: .25rem;
+    
 
 }
 
@@ -153,26 +163,28 @@ a:active {
     background-color: rgba(97, 131, 145, 0.548);
     grid-area: bag-gallery-3;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-
+    
 }
 
 .bag-gallery-4 {
     background-color: rgba(193, 207, 206, 0.541);
     grid-area: bag-gallery-4;
     background: url('../images/istockphoto-1081824266-612x612.jpg');
-
+    border-radius: .25rem;
+    
 }
 
 
 .materials {
     background-color: rgba(73, 65, 82, 0.541);
-    grid-area: materials;
+    
 }
 
 
 .step-1-img {
     background-color: rgba(94, 155, 119, 0.541);
     grid-area: step-1-img;
+    
 }
 
 .step-1-text {
