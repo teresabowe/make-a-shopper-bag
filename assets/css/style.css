@@ -67,10 +67,11 @@ a {
 .header nav li {
     margin-right: 15px;
     font-weight: 600;
+    font-size: 150%;
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 350%;
 }
 
 
