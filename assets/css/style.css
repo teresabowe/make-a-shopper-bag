@@ -125,7 +125,7 @@ a:active {
     place-self: center;
     align-self: end;
     justify-self: left;
-    background-color: rgba(221, 175, 90, 0.7);
+    background-color: rgba(236, 116, 69, 0.9);
     color: white;
     border-radius: 15px;
     padding: 1rem 1rem;
@@ -200,8 +200,19 @@ a:active {
 
 .materials {
     background-color: rgba(159, 182, 104, 0.541);
-    grid-column: 1 / 7;
+    grid-column: 2 / 6;
     grid-row: 6 / 7;
+    display: flex;
+    align-items:center;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+}
+  
+span {
+    padding: 10px;
 }
 
 /*
