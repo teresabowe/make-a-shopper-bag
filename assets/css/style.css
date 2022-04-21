@@ -173,11 +173,11 @@ a:active {
 }
 
 .bag-gallery {
-    grid-column: 1 / 7;
+    grid-column: 2 / 6;
     grid-row: 5 / 6;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    gap: 4rem;
 
 }
 
@@ -197,13 +197,22 @@ a:active {
     height: 100%;
 }
 
-
 .materials {
-    background-color: rgba(159, 182, 104, 0.541);
     grid-column: 2 / 6;
     grid-row: 6 / 7;
+    text-align: center;
+    font-size: 150%;
+}
+
+.materials ul {
+    grid-column: 2 / 6;
+    grid-row: 7 / 8;
+    font-size: 16px;
+    height: 100px;
     display: flex;
-    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .aligned {
