@@ -116,20 +116,15 @@ a:active {
     place-self: center;
 }
 
-.para {
+.gallery-header {
     grid-column: 1 / 7;
     grid-row: 3 / 4;
-    font-size: 120%;
-    font-weight: 500;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: justify;
-    padding: 2rem;
 }
 
-.para>h2 {
+.gallery-header>h2 {
     text-align: center;
-    font-size: 150%;
+    font-size: 175%;
+    padding: 2rem;
 }
 
 .bag-gallery {
@@ -157,23 +152,37 @@ a:active {
     height: 100%;
 }
 
-.materials {
-    grid-column: 1 / 4;
+.materials-header {
+    grid-column: 1 / 7;
     grid-row: 5 / 6;
-    /*text-align: center;*/
-    font-size: 120%;
+}
+
+.materials-header h2 {
+    text-align: center;
+    font-size: 175%;
+    padding: 2rem;
+}
+
+.materials {
+    grid-column: 1 / 7;
+    grid-row: 6 / 7;
+    display: flex;
 }
 
 .materials ul {
     font-size: 16px;
-    height: 100px;
-    /*display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;*/
-
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-basis: 40%;
+	flex-grow: 0;
+	flex-shrink: 0;
 }
 
-.aligned {
+.materials ul .aligned {
     display: flex;
     align-items: center;
 }
@@ -239,7 +248,7 @@ span {
 .footer {
     background-color: rgba(184, 214, 49, 0.541);
     grid-column: 1 / 7;
-    grid-row: 6 / 7;
+    grid-row: 7 / 8;
     min-height: 100px;
 }
 
