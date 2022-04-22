@@ -98,10 +98,10 @@ a:active {
 
 .test>h2 {
     color: white;
-    background-color: rgba(138, 168, 68, 0.7);
+    background-color: rgba(138, 168, 68, 0.8);
     font-size: 175%;
     padding: 20px;
-    margin: 25%;
+    margin: 50% 15% 0% 15%;
     border-radius: 15px;
     place-self: center;
 }
@@ -111,7 +111,7 @@ a:active {
     background-color: rgba(236, 116, 69, 0.9);
     font-size: 120%;
     padding: 20px;
-    margin: 15%;
+    margin: 10% 25% 20% 25%;
     border-radius: 15px;
     place-self: center;
 }
