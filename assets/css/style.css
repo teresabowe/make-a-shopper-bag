@@ -207,6 +207,7 @@ span {
 }
 
 .steps h3 {
+    background-color: rgb(243, 243, 231);
     font-size: 1.5rem;
     margin-left: 5%;
     margin-right: 5%;
