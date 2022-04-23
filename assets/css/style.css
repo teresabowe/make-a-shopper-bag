@@ -184,6 +184,7 @@ a:active {
 .materials ul .aligned {
     display: flex;
     align-items: center;
+    margin: 10px;
 }
 
 span {
