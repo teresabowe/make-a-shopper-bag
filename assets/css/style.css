@@ -229,6 +229,38 @@ span {
     min-height: 100px;
 }
 
+@media only screen and (max-width:768px) {
+
+    .container {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+
+    .hero {
+        max-inline-size: 100%;
+        block-size: auto;
+        min-height: 500px;
+
+    }
+
+    .bag-gallery {
+        grid-template-columns:1fr 1fr;
+    } 
+
+    .materials ul {
+        height: 400px;
+        /*display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;*/
+        flex-basis: 45%;
+        flex-grow: 0;
+        flex-shrink:0;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+
+}
 
 @media only screen and (max-width:450px) {
     .container {
@@ -270,6 +302,7 @@ span {
     .steps img {
         width: 80%;
     }
-
-    
 }
+
+
+
