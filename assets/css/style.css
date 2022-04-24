@@ -119,8 +119,6 @@ a:active {
 }
 
 .gallery-header>h2 {
-    /*background-color: rgb(148, 118, 118);
-    color: white;*/
     text-align: center;
     font-size: 175%;
     padding: 2rem;
@@ -229,6 +227,39 @@ span {
     min-height: 100px;
 }
 
+/* media queries */
+
+@media only screen and (max-width:1024px) {
+
+    .container {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+
+    .hero {
+        max-inline-size: 100%;
+        block-size: auto;
+        min-height: 500px;
+
+    }
+
+    
+    .bag-gallery {
+        grid-template-columns:1fr 1fr 1fr;
+    } 
+
+    .materials ul {
+        height: 375px;
+        flex-basis: 45%;
+        flex-grow: 0;
+        flex-shrink:0;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+
+}
+
 @media only screen and (max-width:768px) {
 
     .container {
@@ -248,10 +279,7 @@ span {
     } 
 
     .materials ul {
-        height: 400px;
-        /*display: flex;
-        flex-wrap: wrap;
-        flex-direction:column;*/
+        height: 420px;
         flex-basis: 45%;
         flex-grow: 0;
         flex-shrink:0;
@@ -269,7 +297,13 @@ span {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 175%;
+    }
+
+    .header nav li {
+        margin-right: 15px;
+        font-weight: 600;
+        font-size: 100%;
     }
 
     .hero {
@@ -280,23 +314,46 @@ span {
     }
 
     .test>h2 {
-        font-size: 180%;
+        font-size: 120%;
     }
     
     .test>a {
+        font-size: 90%;
         padding: 10px;
+    }
+
+    .gallery-header>h2 {
+        font-size: 120%;
+        padding: 2rem;
+    
     }
 
     .bag-gallery {
         grid-template-columns:1fr;
     } 
 
+    .materials-header h2 {
+        font-size: 120%;
+    }
+    
+
     .materials ul {
+        font-size: 14px;
         flex-direction:row;
         flex-basis: 90%;
         margin-left: 5%;
         margin-right: 5%;
         height: auto;
+    }
+
+    .steps h3 {
+        font-size: 1.25rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .steps p {
+        font-size: 14px;
     }
 
     .steps img {
