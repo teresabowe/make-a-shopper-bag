@@ -161,8 +161,8 @@ a:active {
 }
 
 .materials ul {
-    font-size: 16px;
-    height: 350px;
+    font-size: 1.1rem;
+    height: 370px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
@@ -171,6 +171,8 @@ a:active {
 	flex-shrink:0;
     margin-left: 10%;
     margin-right: 10%;   
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .materials ul .aligned {
@@ -355,7 +357,7 @@ footer {
     } 
 
     .materials ul {
-        height: 420px;
+        height: 590px;
         flex-basis: 45%;
         flex-grow: 0;
         flex-shrink:0;
