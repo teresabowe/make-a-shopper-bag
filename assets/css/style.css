@@ -332,11 +332,13 @@ footer {
     margin: 1rem;
 }
 
-.glossary-body p, dt {
+.glossary-body p,
+dt {
     font-weight: bold;
 }
 
-.glossary-body dl, dd {
+.glossary-body dl,
+dd {
     font-size: .9rem;
     margin: 1rem;
 }
@@ -351,18 +353,18 @@ footer {
 }
 
 .alpha-line {
-    width: 100%;  
-    height: 1px;  
-    background-color: rgb(100, 89, 89);  
-    margin-bottom: 7px;  
-    margin-right: 0;  
-    margin-left: 0;  
-    margin-top: 9px;  
+    width: 100%;
+    height: 1px;
+    background-color: rgb(100, 89, 89);
+    margin-bottom: 7px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 9px;
 }
 
 /* Contact Page */
 
-.hero-contact {
+.hero-contact-page {
     grid-column: 1 / 7;
     grid-row: 2 / 3;
     min-height: 900px;
@@ -371,63 +373,72 @@ footer {
     background-position: center;
 }
 
-.hero-contact>* {
+.hero-contact-page>* {
     color: white;
 }
 
-
-.hero-contact-header {
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
-}
-
-.hero-contact-header>h2 {
-    color: white;
-    background-color: rgba(138, 168, 68, 0.8);
-    font-size: 175%;
-    padding: 20px;
-    margin: 10% 15% 5% 15%;
-    place-self: center;
-}
 
 .contact-form {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
     color: white;
-    background-color: rgba(138, 168, 68, 0.8);
-    grid-column: 1 / 7;
-    grid-row: 3 / 4;
-    margin: 10% 15% 5% 15%;
+    /*background-color: rgba(138, 168, 68, 0.6);*/
     padding: 2rem;
 }
 
+.contact-form h2 {
+    color: white;
+    font-size: 2rem;
+    place-self: center;
+    margin-bottom: 5%;
+}
+
+
+
 .contact-form label {
     display: block;
-  }
+    margin-bottom: .25rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
 
 
 .contact-form p {
-  margin: 0rem;
+    margin: 0rem;
+}
+
+.contact-form #name-field {
+    width: 45%;
+}
+
+.contact-form #email-field {
+    width: 45%;
 }
 
 .full-width {
     grid-column: 1 / 4;
-  }
+}
+
 
 button,
 input {
-  padding: 1em;
+    padding: 1em;
 }
 
 textarea {
-    min-height: calc(100% - 2em);
-     width: 100%;
-  }
+    min-height: 150px;
+    width: 95%;
+    padding: 1em;
+}
 
-  button {
+button {
     grid-area: button;
     border: 0;
     background: gray;
     color: white;
-  }
+}
+
+
 
 /* media queries */
 
