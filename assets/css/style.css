@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 h1,
@@ -47,19 +47,21 @@ p {
 .header nav ul {
     display: flex;
     list-style-type: none;
-    font-weight: 600;
 }
 
 .header nav li {
     margin-right: 15px;
+    font-size: 1.5rem;
     font-weight: 600;
-    font-size: 150%;
 }
 
 #logo {
-    font-size: 350%;
+    font-size: 3rem;
 }
 
+.active {
+    border-bottom: 1.5px solid black;
+}
 
 a:link {
     text-decoration: none;
@@ -99,7 +101,7 @@ a:active {
 .hero-text>h2 {
     color: white;
     background-color: rgba(138, 168, 68, 0.8);
-    font-size: 175%;
+    font-size: 2rem;
     padding: 20px;
     margin: 40% 15% 10% 15%;
     place-self: center;
@@ -108,7 +110,7 @@ a:active {
 .hero-text a {
     color: white;
     background-color: rgba(236, 116, 69, 0.9);
-    font-size: 120%;
+    font-size: 1.75rem;
     padding: 20px;
     margin: 10% 15% 10% 15%;
     place-self: center;
@@ -116,7 +118,7 @@ a:active {
 
 .section-header {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 3rem;
 }
 
@@ -145,7 +147,6 @@ a:active {
     grid-column: 1 / 7;
     grid-row: 4 / 5;
 }
-
 
 #materials-list {
     display: flex;
@@ -179,24 +180,15 @@ span {
 
 #steps {
     grid-column: 1 / 7;
-    grid-row: 7 / 8;
+    grid-row: 5 / 6;
     padding: 1rem;
     border: 1.5px solid;
     margin: 2.5rem;
 }
 
-
-#steps h2 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 #steps h3 {
     background-color: rgb(243, 243, 231);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -228,7 +220,7 @@ figcaption {
 footer {
     background-color: rgba(245, 226, 175, 0.541);
     grid-column: 1 / 7;
-    grid-row: 8 / 9;
+    grid-row: 6 / 7;
     height: 100px;
 }
 
@@ -436,13 +428,13 @@ button {
     }
 
     #logo {
-        font-size: 175%;
+        font-size: 1.25rem;
     }
 
     .header nav li {
         margin-right: 15px;
         font-weight: 600;
-        font-size: 100%;
+        font-size: 1.1rem;
     }
 
     .hero {
@@ -452,11 +444,11 @@ button {
     }
 
     .hero-header>h2 {
-        font-size: 120%;
+        font-size: 1.2rem;
     }
 
     .hero-header>a {
-        font-size: 90%;
+        font-size: .8rem;
         padding: 10px;
     }
 
