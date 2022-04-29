@@ -224,7 +224,7 @@ footer {
     background-color: rgba(245, 226, 175, 0.541);
     grid-column: 1 / 7;
     grid-row: 6 / 7;
-    height: 100px;
+    height: 150px;
 }
 
 .social-networks {
@@ -284,11 +284,11 @@ dd {
     margin-left: 0;
     margin-top: 9px;
 }
-
+/*
 footer {
     grid-column: 1 / 7;
     grid-row: 4 / 5;
-}
+} */
 
 /* Contact Page */
 
@@ -361,8 +361,11 @@ button {
     color: white;
     margin: 2% 0 0 0;
 }
-
-
+/*
+footer {
+    grid-column: 1 / 7;
+    grid-row: 3 / 4;
+}*/
 
 /* media queries */
 
