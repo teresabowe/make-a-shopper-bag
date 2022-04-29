@@ -315,6 +315,11 @@ dd {
     margin-bottom: 5%;
 }
 
+textarea, input[type="text"], input[type="email"] {
+    font-size: .9rem;
+    font-family: 'Sans Pro', sans-serif;
+ }
+
 .contact-form label {
     display: block;
     margin-bottom: .25rem;
