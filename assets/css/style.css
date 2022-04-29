@@ -55,9 +55,12 @@ p {
     font-weight: 600;
 }
 
-#logo {
-    font-size: 3rem;
-}
+#logo img {  
+        height: 85px;
+        width: auto;
+        padding: 10%;
+    }
+
 
 .active {
     border-bottom: 1.5px solid black;
@@ -360,6 +363,7 @@ button {
     border: 0;
     background: gray;
     color: white;
+    margin: 2% 0 0 0;
 }
 
 
