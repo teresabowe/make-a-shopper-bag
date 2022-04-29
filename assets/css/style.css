@@ -488,6 +488,13 @@ button {
         height: auto;
     }
 
+    .section-header {
+        text-align: center;
+        font-size: 1rem;
+        padding: .75rem;
+    }
+    
+
     #steps h3 {
         font-size: 1.1rem;
         margin-left: 1%;
