@@ -224,7 +224,13 @@ footer {
     background-color: rgba(245, 226, 175, 0.541);
     grid-column: 1 / 7;
     grid-row: 6 / 7;
-    height: 150px;
+    height: auto;
+}
+
+footer h2 { 
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .social-networks {
