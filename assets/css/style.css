@@ -181,6 +181,11 @@ span {
     padding: 10px;
 }
 
+span a {
+ color: blue;
+ letter-spacing: normal;
+}
+
 #steps {
     grid-column: 1 / 7;
     grid-row: 5 / 6;
@@ -201,6 +206,11 @@ span {
     margin-left: 5%;
     margin-right: 5%;
     padding: 2rem;
+}
+
+#steps p a {
+    color: blue;
+    letter-spacing: normal;
 }
 
 #steps figure {
@@ -276,6 +286,9 @@ dd {
     margin-bottom: 1em;
 }
 
+#glossary-body dd sup {
+    color:blue;
+}
 
 .alpha-headline {
     font-weight: bold;
@@ -300,6 +313,10 @@ dd {
 
 #references p {
     margin-top: .5rem;
+}
+
+#references p a {
+   color: blue;
 }
 
 /*
