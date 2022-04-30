@@ -276,6 +276,7 @@ dd {
     margin-bottom: 1em;
 }
 
+
 .alpha-headline {
     font-weight: bold;
     font-size: 1.5rem;
@@ -290,6 +291,17 @@ dd {
     margin-left: 0;
     margin-top: 9px;
 }
+
+#references {
+    grid-column: 1 / 7;
+    grid-row: 4 / 5;
+    margin-left: 2rem;
+}
+
+#references p {
+    margin-top: .5rem;
+}
+
 /*
 footer {
     grid-column: 1 / 7;
