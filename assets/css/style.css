@@ -321,7 +321,7 @@ footer {
 textarea,
 input[type="text"],
 input[type="email"] {
-    font-size: .9rem;
+    font-size: .8rem;
     font-family: 'Sans Pro', sans-serif;
 }
 
@@ -337,11 +337,11 @@ input[type="email"] {
 }
 
 .contact-form #name-field {
-    width: 45%;
+    width: 50%;
 }
 
 .contact-form #email-field {
-    width: 45%;
+    width: 50%;
 }
 
 .full-width {
@@ -356,7 +356,7 @@ input {
 
 textarea {
     min-height: 150px;
-    width: 95%;
+    width: 90%;
     padding: 1em;
 }
 
