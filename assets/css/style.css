@@ -450,7 +450,11 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    
+    .hero#hero-index-image {
+        background: url('../images/woman-with-shopper-tote-bag-on-shoulder.png') right;
+        background-size: cover;
+    }
     .hero {
         max-inline-size: 100%;
         block-size: auto;
@@ -490,7 +494,11 @@ footer {
         font-weight: 600;
         font-size: 1.1rem;
     }
-
+    .hero#hero-index-image {
+        background: url('../images/woman-with-shopper-tote-bag-on-shoulder.png') right;
+        background-size: cover;
+    }
+    
     .hero {
         max-inline-size: 100%;
         block-size: auto;
