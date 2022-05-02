@@ -227,8 +227,9 @@ figcaption {
     background-color: black;
     color: white;
     font-style: italic;
-    padding: 2px;
+    padding: .5px;
     text-align: center;
+    font-size: .9rem;
 }
 
 footer {
@@ -403,12 +404,12 @@ button {
 
 .hero-thank-you-text h2 {
     color: white;
-    background-color: rgba(138, 168, 68, 0.8);
+    background-color: rgba(168, 116, 68, 0.8);
     font-size: 2rem;
     padding: 20px;
     margin: 10% 15% 10% 15%;
     align-items: center;
-}
+} 
 
 /* media queries */
 
