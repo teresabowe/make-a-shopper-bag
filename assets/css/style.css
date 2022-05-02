@@ -104,7 +104,7 @@ a:active {
 
 .hero-text h2 {
     color: white;
-    background-color: rgba(138, 168, 68, 0.8);
+    background-color:#535C30;
     font-size: 2rem;
     padding: 20px;
     margin: 40% 15% 10% 15%;
@@ -113,7 +113,7 @@ a:active {
 
 .hero-text a {
     color: white;
-    background-color: rgba(236, 116, 69, 0.9);
+    background-color: #000000;
     font-size: 1.75rem;
     padding: 10px;
     margin: 10% 15% 10% 15%;
@@ -153,7 +153,7 @@ a:active {
 
 #materials-list {
     display: flex;
-    background-color: rgba(193, 199, 193, 0.2);
+    background-color: #D0D1E9;
 }
 
 #materials-list ul {
@@ -195,7 +195,7 @@ span a {
 }
 
 #steps h3 {
-    background-color: rgb(243, 243, 231);
+    background-color:#9DB065;
     font-size: 1.25rem;
     margin-left: 5%;
     margin-right: 5%;
@@ -223,15 +223,15 @@ span a {
 }
 
 figcaption {
-    background-color: rgb(245, 220, 220);
-    color: rgb(7, 7, 7);
+    background-color: black;
+    color: white;
     font-style: italic;
     padding: 2px;
     text-align: center;
 }
 
 footer {
-    background-color: rgba(245, 226, 175, 0.541);
+    background-color: #D0D1E9;
     grid-column: 1 / 7;
     grid-row: 6 / 7;
     height: auto;
