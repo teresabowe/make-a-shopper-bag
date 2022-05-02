@@ -29,7 +29,7 @@ p {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: .5rem;
+    gap: 0rem;
 
 }
 
@@ -195,7 +195,8 @@ span a {
 }
 
 #steps h3 {
-    background-color:#9DB065;
+    background-color: #535C30;
+    color: white;
     font-size: 1.25rem;
     margin-left: 5%;
     margin-right: 5%;
@@ -261,7 +262,7 @@ footer h2 {
 /* Glossary Page */
 
 .hero#hero-glossary-image {
-    background: url('../images/istockphoto-1269580513-612x612.jpg') center;
+    background: url('../images/yellow-shopper-bag-on-grass.png') center;
     background-size: cover;
 }
 
@@ -325,7 +326,7 @@ dd {
 /* Contact Page */
 
 .hero#hero-contact-image {
-    background: url('../images/pexels-pixabay-262713.jpg') center;
+    background: url('../images/woman-walking-with-shopper-in-park.png') center;
     background-size: cover;
 }
 
@@ -334,6 +335,7 @@ dd {
     grid-row: 2 / 3;
     color: white;
     padding: 2rem;
+    background-color: #535C30;
 }
 
 .contact-form h2 {
@@ -362,17 +364,16 @@ input[type="email"] {
 }
 
 .contact-form #name-field {
-    width: 50%;
+    width: 70%;
 }
 
 .contact-form #email-field {
-    width: 50%;
+    width: 70%;
 }
 
 .full-width {
     grid-column: 1 / 4;
 }
-
 
 button,
 input {
@@ -381,7 +382,7 @@ input {
 
 textarea {
     min-height: 150px;
-    width: 90%;
+    width: 70%;
     padding: 1em;
 }
 
@@ -392,7 +393,6 @@ button {
     color: white;
     margin: 2% 0 0 0;
 }
-
 
 /* thank you page */
 
@@ -427,6 +427,7 @@ button {
 
     .hero-text h2 {
         font-size: 1.5rem;
+        margin: 30% 10% 5% 15%;
     }
 
     .hero-text a {
@@ -463,10 +464,20 @@ button {
         background-size: cover;
     }
 
+    .hero#hero-glossary-image {
+        background: url('../images/yellow-shopper-bag-on-grass.png') right;
+        background-size: cover;
+    }
+
     .hero {
         max-inline-size: 100%;
         block-size: auto;
         min-height: 500px;
+    }
+
+    .hero-text h2 {
+        margin: 45% 10% 5% 15%;
+        padding: 5px;
     }
 
     #bag-gallery {
@@ -507,6 +518,11 @@ button {
         background-size: cover;
     }
     
+    .hero#hero-glossary-image {
+        background: url('../images/yellow-shopper-bag-on-grass.png') right;
+        background-size: cover;
+    }
+
     .hero {
         max-inline-size: 100%;
         block-size: auto;
@@ -515,8 +531,8 @@ button {
 
     .hero-text h2 {
         font-size: 1.2rem;
-        padding: 15px;
-        margin: 65% 15% 5% 15%;
+        padding: 5px;
+        margin: 60% 15% 5% 15%;
     }
     
     .hero-text a {
