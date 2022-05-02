@@ -143,8 +143,6 @@ a:active {
 #bag-gallery #bag-gallery-image img {
     width: 100%;
     height: 100%;
-    /*border: 1px solid;*/
-    /*padding: 10px;*/
     box-shadow: rgba(18, 18, 19, 0.25) 0px 50px 100px -20px, rgba(28, 29, 28, 0.63) 0px 30px 60px -30px;
 }
 
@@ -324,12 +322,6 @@ dd {
    color: blue;
 }
 
-/*
-footer {
-    grid-column: 1 / 7;
-    grid-row: 4 / 5;
-} */
-
 /* Contact Page */
 
 .hero#hero-contact-image {
@@ -341,7 +333,6 @@ footer {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     color: white;
-    /*background-color: rgba(138, 168, 68, 0.6);*/
     padding: 2rem;
 }
 
@@ -401,11 +392,6 @@ button {
     color: white;
     margin: 2% 0 0 0;
 }
-/*
-footer {
-    grid-column: 1 / 7;
-    grid-row: 3 / 4;
-}*/
 
 /* media queries */
 
