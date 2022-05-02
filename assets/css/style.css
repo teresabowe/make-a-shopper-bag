@@ -177,11 +177,11 @@ a:active {
     margin: 5px;
 }
 
-span {
+h3 {
     padding: 10px;
 }
 
-span a {
+h3 a {
  color: blue;
  letter-spacing: normal;
 }
