@@ -249,12 +249,17 @@ footer {
     grid-column: 1 / 7;
     grid-row: 6 / 7;
     height: auto;
+    margin-top: 10px;
 }
 
 footer h2 { 
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
+}
+
+footer ul {
+    margin-bottom: 15px;
 }
 
 .social-networks {
@@ -263,10 +268,11 @@ footer h2 {
 
 .social-networks>li {
     display: inline;
+    padding: 1rem;
 }
 
 .social-networks i {
-    font-size: 170%;
+    font-size: 1.5rem;
     margin: 1%;
     padding: 1%;
     color: black;
