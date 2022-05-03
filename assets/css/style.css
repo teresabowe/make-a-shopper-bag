@@ -345,17 +345,19 @@ dd {
 
 /* Contact Page */
 
+
 .hero#hero-contact-image {
-    background: url('../images/woman-walking-with-shopper-in-park.png') center;
-    background-size: cover;
+    grid-column: 1 / 7;
+    grid-row: 2 / 5;
+    background: rgb(83,92,48);
+    background: linear-gradient(90deg, rgba(83,92,48,1) 0%, rgba(157,176,101,1) 76%);
 }
 
 .contact-form {
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
     color: white;
-    padding: 2rem;
-    background-color: #535C30;
+    padding: 1rem;
 }
 
 .contact-form h2 {
@@ -384,34 +386,39 @@ input[type="email"] {
 }
 
 .contact-form #name-field {
-    width: 70%;
+    width: 50%;
 }
 
 .contact-form #email-field {
-    width: 70%;
+    width: 50%;
 }
 
 .full-width {
-    grid-column: 1 / 4;
+    grid-column: 1 / 7;
 }
 
-button,
 input {
+    font-size: 1.25rem;
     padding: 1em;
 }
 
 textarea {
     min-height: 150px;
-    width: 70%;
+    width: 100%;
     padding: 1em;
 }
 
 button {
-    grid-area: button;
     border: 0;
-    background: gray;
-    color: white;
+    background:#281F05;
     margin: 2% 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: .5rem;
+    background-color: #DBA81D;
+    font-size: 1.25rem;
+    font-weight: 700;
+    box-shadow: 0 10px 0 0  #281F05;
+    padding: .5em;
 }
 
 /* thank you page */
@@ -470,6 +477,10 @@ button {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .contact-form {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
 }
 
 @media only screen and (max-width:768px) {
