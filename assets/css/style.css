@@ -470,7 +470,10 @@ button {
         justify-content: space-around;
     }
 
-    
+    #no-right-margin {
+        margin-right: 0px;
+    }
+
     .hero#hero-index-image {
         background: url(../images/woman-with-shopper-bag-on-shoulder-in-park.png) right;
         background-size: cover;
