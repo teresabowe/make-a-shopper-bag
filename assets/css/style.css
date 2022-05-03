@@ -78,7 +78,7 @@ a:visited {
 }
 
 a:hover {
-    opacity: .6;
+    opacity: .9;
 }
 
 a:active {
@@ -147,6 +147,7 @@ a:active {
 #bag-gallery .bag-gallery-image img {
     width: 100%;
     height: 100%;
+    border-radius: .5rem;
     box-shadow: rgba(18, 18, 19, 0.25) 0px 50px 100px -20px, rgba(28, 29, 28, 0.63) 0px 30px 60px -30px;
 }
 
@@ -158,6 +159,10 @@ a:active {
 #materials-list {
     display: flex;
     background-color: #D0D1E9;
+}
+
+span {
+    margin: 15px;
 }
 
 #materials-list ul {
