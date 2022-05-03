@@ -94,7 +94,7 @@ a:active {
 }
 
 .hero#hero-index-image {
-    background: url('../images/woman-with-shopper-bag-on-shoulder-in-park.png') center;
+    background: url('../images/woman-with-shopper-bag-on-shoulder-in-park-right-min.png') center;
     background-size: cover;
 }
 
@@ -478,6 +478,7 @@ button {
     .contact-form {
         grid-column: 1 / 4;
         grid-row: 3 / 4;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -500,7 +501,7 @@ button {
     }
 
     .hero#hero-index-image {
-        background: url(../images/woman-with-shopper-bag-on-shoulder-in-park.png) right;
+        background: url(../images/woman-with-shopper-bag-on-shoulder-in-park-center-min.png) center;
         background-size: cover;
     }
 
@@ -554,7 +555,7 @@ button {
         font-size: 1.1rem;
     }
     .hero#hero-index-image {
-        background: url(../images/woman-with-shopper-bag-on-shoulder-in-park.png) center;
+        background: url(../images/woman-with-shopper-bag-on-shoulder-in-park-center-min.png) center;
         background-size: cover;
     }
     
