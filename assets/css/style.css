@@ -113,10 +113,12 @@ a:active {
 }
 
 .hero-text a {
-    color: white;
+    color: #281F05;
     font-family: 'Montserrat', sans-serif;
-    background-color: #000000;
+    background-color: #DBA81D;
     font-size: 1.75rem;
+    font-weight: 700;
+    box-shadow: 0 10px 0 0  #281F05;
     padding: 10px;
     margin: 10% 15% 10% 15%;
     place-self: center;
