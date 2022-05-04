@@ -119,7 +119,7 @@ a:active {
     background-color: #DBA81D;
     font-size: 1.75rem;
     font-weight: 700;
-    box-shadow: 0 10px 0 0  #281F05;
+    box-shadow: 0 10px 0 0  #535C30;
     padding: 10px;
     margin: 10% 15% 10% 15%;
     place-self: center;
@@ -417,7 +417,7 @@ button {
     background-color: #DBA81D;
     font-size: 1.25rem;
     font-weight: 700;
-    box-shadow: 0 10px 0 0  #281F05;
+    box-shadow: 0 10px 0 0  #535C30;
     padding: .5em;
 }
 
