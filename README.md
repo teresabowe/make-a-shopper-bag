@@ -99,6 +99,18 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ![Desktop Wireframe](/assets/images/bag-gallery.png)
 
+- __Materials and Equipment Section__
+
+    - This section tells the user exactly what quantity of material and which tools are essential to make the bag.
+
+    - The icons also provide a visual representation to also quickly show the user these items e.g. sewing machine, thread, pins.  Many of these items most likely owned by the user already.  It is intended that showing these icons provides some immediate imformation thereby putting the beginner crafer at ease.
+
+![Desktop Wireframe](/assets/images/materials-and-equipment.png)
+
+
+
+
+
 
 
 
