@@ -129,7 +129,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
     
     - A new tab will be opened to allow the user to to navigate to the desired channel seamlessly.
 
-    
+     ![Footer](/docs/footer.png)
 
 
 
