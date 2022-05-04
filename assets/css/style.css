@@ -110,6 +110,7 @@ a:active {
     padding: 20px;
     margin: 40% 15% 10% 15%;
     place-self: center;
+    opacity: .8;
 }
 
 .hero-text a {
@@ -568,13 +569,13 @@ button {
     .hero {
         max-inline-size: 100%;
         block-size: auto;
-        min-height: 400px;
+        min-height: 500px;
     }
 
     .hero-text h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 5px;
-        margin: 65% 15% 5% 15%;
+        margin: 85% 15% 5% 15%;
     }
     
     .hero-text a {
