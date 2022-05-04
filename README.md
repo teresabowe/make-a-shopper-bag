@@ -146,6 +146,16 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
     ![Step1](/docs/glossary-W-to-references.png)
 
 
+- __Contact__
+
+    - The contact page provides an opportunity for the user to send a message.  The user must enter their name, email address and the message.  All fields are required to be completed.  The name field must contain text.  The email address must be entered in the correct format i.e. must contain the @ and . characters.
+
+    - Once the send button is clicked the user is presented with a thank you page which is triggered by a GET method in the form element.  This page is not visible from the navigation menu but contains the navigation bar to allow for further browsing by the user.
+
+    
+
+
+
 
 
 
