@@ -141,10 +141,10 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The reference section offers the user, depending on their interest, an opportunity to explpore the references further.
 
-    ![Step1](/docs/glossary-F-to-O.png)
-    ![Step1](/docs/glossary-R-to-W.png)
-    ![Step1](/docs/references.png)
-    
+    ![Step1](/docs/glossary-F-to-I.png)
+    ![Step1](/docs/glossary-O-to-R.png)
+    ![Step1](/docs/glossary-W-to-references.png)
+
 
 
 
