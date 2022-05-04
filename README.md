@@ -152,7 +152,12 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - Once the send button is clicked the user is presented with a thank you page which is triggered by a GET method in the form element.  This page is not visible from the navigation menu but contains the navigation bar to allow for further browsing by the user.
 
+    ![Step1](/docs/contact-page.png)
+    ![Step1](/docs/thankyou-page.png)
+
+
     
+
 
 
 
