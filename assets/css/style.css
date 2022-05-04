@@ -348,6 +348,7 @@ dd {
 .hero#hero-contact-image {
     grid-column: 1 / 7;
     grid-row: 2 / 5;
+    min-height: 700px;
     background: rgb(83,92,48);
     background: linear-gradient(180deg, rgba(83,92,48,1) 0%, rgba(157,176,101,1) 76%);
 }
