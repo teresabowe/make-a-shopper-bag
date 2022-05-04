@@ -69,6 +69,20 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ![Eight Shapes Contrast Grid](/assets/images/eight-shapes-contrast-grid.png)
 
+## Features
+
+
+- __Navigation Bar__
+
+
+    - The navigation bar design is common across all pages.  There is logo text on the left side and the navigation links of Home, Glossary and Contact on the right side.  The font family of Montserrat for the logo makes it distinctive from the other font of Open Sans for the navigation links.  The logo text provides a link back to the home page from the other pages.
+
+    - The navigation bar has also been designed to be fully responsive across all devices.  This give the user additional navigation options outside of the normal browser features.
+
+    - The navigation link for the current page is always underlined so that the user is aware of their location on the website.
+
+![Desktop Wireframe](/assets/images/navigation-bar.png)
+
 
 
 
