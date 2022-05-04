@@ -245,7 +245,7 @@ figcaption {
 }
 
 footer {
-    background-color: #D0D1E9;
+    background-color: #dbe1c3;
     grid-column: 1 / 7;
     grid-row: 6 / 7;
     height: auto;
