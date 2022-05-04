@@ -115,7 +115,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The user also has the option of clicking through to the glossary page to check out definitions regarding relevant sewing terminology.  This feature is aimed at the beginner crafter.  The experienced crafter can continue on past the links to see quickly how the bag is constructed.
 
-    - The links are the same colour as the call to action on the hero image which is intended to encourage a ckick through to the glossary.
+    - The links are a different colour to the other text which is intended to encourage a ckick through to the glossary.
 
     ![Step1](/docs/step1.png)
     ![Step1](/docs/step2.png)
@@ -141,7 +141,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The reference section offers the user, depending on their interest, an opportunity to explpore the references further.
 
-    
+
 
 
 
