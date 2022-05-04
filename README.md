@@ -131,6 +131,10 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
      ![Footer](/docs/footer.png)
 
+     
+
+
+
 
 
 
