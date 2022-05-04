@@ -93,6 +93,19 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ![Desktop Wireframe](/assets/images/hero-image-index-page.png)
 
+ - __Bag Gallery Section__
+
+    - The bag gallery shows images of the completed bag holding toys, gym training equipment, flowers and groceries.  The intention here is that the images will impress upon the user that it is a multifunctional item so it is worth making the effort to check out the materials needed and the steps involved in the following sections.
+
+![Desktop Wireframe](/assets/images/bag-gallery.png)
+
+
+
+
+
+
+
+
 
 
 
