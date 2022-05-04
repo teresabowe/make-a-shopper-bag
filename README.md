@@ -131,7 +131,17 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
      ![Footer](/docs/footer.png)
 
-     
+- __Glossary__
+
+    - The glossary is available on the navigation bar on the main index page and also can be found via links from the steps section on the main index page.
+
+    - The layout and design is potentially a familiar one and similar to any glossary found on Wikipedia with the terminology laid out in alphabetical order.  The letters are in capitals and separated by a line break before the glossary term and an indented description.
+
+    - Each term is referenced by a number which is linked to the reference section at the bottom of the page.
+
+    - The reference section offers the user, depending on their interest, an opportunity to explpore the references further.
+
+    
 
 
 
