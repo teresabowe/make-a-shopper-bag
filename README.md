@@ -89,7 +89,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The overlay text of "Make this bag yourself!" attempts to draw the user in to start thinking about making a bag.
 
-    - The call to action of "Get started" offers a link to the materials section of the page where details can be found about fabrics and tools needed.  The font family here is Montserrat also which is the same as the logo text in the navigation bar.
+    - The call to action of "Get started" offers both the beginner and the experienced crafter a link to the materials section of the page where details can be found about fabrics and tools needed.  The font family here is Montserrat also which is the same as the logo text in the navigation bar.
 
 ![Desktop Wireframe](/assets/images/hero-image-index-page.png)
 
@@ -98,6 +98,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
     - The bag gallery shows images of the completed bag holding toys, gym training equipment, flowers and groceries.  The intention here is that the images will impress upon the user that it is a multifunctional item so it is worth making the effort to check out the materials needed and the steps involved in the following sections.
 
 ![Desktop Wireframe](/assets/images/bag-gallery.png)
+
 
 
 
