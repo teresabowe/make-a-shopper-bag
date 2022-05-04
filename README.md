@@ -155,8 +155,10 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
     ![Step1](/docs/contact-page.png)
     ![Step1](/docs/thankyou-page.png)
 
+- __Features Left to Implement__
 
-    
+    - The co
+
 
 
 
