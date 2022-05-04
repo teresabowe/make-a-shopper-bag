@@ -2,7 +2,7 @@
 
 The Handmade Shopper Bag site intends to provide instructions to crafters on how to make a simple shopper bag.  The site will be targeted towards beginner crafters and those who want specific information on how some techniques are applied.  Detailed instructions will be provided along with a number of images showing the techniques involved.  
 
-![Responsive Mockup](/assets/images/am-i-responsive.png)
+![Responsive Mockup](/docs/am-i-responsive.pngimages/am-i-responsive.png)
 
 ## UX Design
 
@@ -49,7 +49,7 @@ The user stories helped to define the opportunities for the site.  An assessment
 
 The opportunities were mapped so it could be decided which opportunities were going to be considered for this release.
 
- ![UX Strategy](/assets/images/ux-strategy.png)
+ ![UX Strategy](/docs/ux-strategy.pngux-strategy.png)
 
 Once these were mapped it was decided that the opportunity to create and host instructional video(s) would be excluded for the initial release. 
 
@@ -59,15 +59,15 @@ As a follow up to defining the UX strategy, a series of basic wireframes was dev
 
 The [Balsamic Wireframe](https://fontawesome.com/) tool was used to produce the initial wireframes.
 
-![Desktop Wireframe](/assets/images/Desktop%20Wireframe%20-%20Home%20Page.png)
+![Desktop Wireframe](/docs/desktop-wireframe-home-page.png)
 
-![Tablet and Mobile Wireframe](/assets/images/Tablet%20and%20Mobile%20Wireframe%20-%20Home%20Page.png)
+![Tablet and Mobile Wireframe](/docs/tablet-and-mobile-wireframe-home-page.png)
 
 ## Colour Scheme and Accessibility
 
 The [Coolers](https://coolors.co/) colour palettes generator helped to work out a colour scheme for the site.  The [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) then helped to test the foreground and background color combos for compliance with WCAG 2.0 minimum contrast.
 
-![Eight Shapes Contrast Grid](/assets/images/eight-shapes-contrast-grid.png)
+![Eight Shapes Contrast Grid](/docs/eight-shapes-contrast-grid.png)
 
 ## Features
 
@@ -81,7 +81,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The navigation link for the current page is always underlined so that the user is aware of their location on the website.
 
-![Desktop Wireframe](/assets/images/navigation-bar.png)
+![Desktop Wireframe](/docs/navigation-bar.png)
 
 - __Landing Page Image__
 
@@ -91,13 +91,13 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The call to action of "Get started" offers both the beginner and the experienced crafter a link to the materials section of the page where details can be found about fabrics and tools needed.  The font family here is Montserrat also which is the same as the logo text in the navigation bar.
 
-![Desktop Wireframe](/assets/images/hero-image-index-page.png)
+![Desktop Wireframe](/docs/hero-image-index-page.png)
 
  - __Bag Gallery Section__
 
     - The bag gallery shows images of the completed bag holding toys, gym training equipment, flowers and groceries.  The intention here is that the images will impress upon the user that it is a multifunctional item so it is worth making the effort to check out the materials needed and the steps involved in the following sections.
 
-![Desktop Wireframe](/assets/images/bag-gallery.png)
+![Desktop Wireframe](/docs/bag-gallery.png)
 
 - __Materials and Equipment Section__
 
@@ -105,7 +105,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The icons also provide a visual representation to also quickly show the user these items e.g. sewing machine, thread, pins.  Many of these items most likely owned by the user already.  It is intended that showing these icons provides some immediate imformation thereby putting the beginner crafer at ease.
 
-![Desktop Wireframe](/assets/images/materials-and-equipment.png)
+![Desktop Wireframe](/docs/materials-and-equipment.png)
 
 - __Steps Section__
 
@@ -117,11 +117,15 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The links are the same colour as the call to action on the hero image which is intended to encourage a ckick through to the glossary.
 
-    ![Desktop Wireframe](/assets/images/step1.png)
-    ![Desktop Wireframe](/assets/images/step2.png)
-    ![Desktop Wireframe](/assets/images/step3.png)
-    ![Desktop Wireframe](/assets/images/step4.png)
-    ![Desktop Wireframe](/assets/images/step5.png)
+    ![Desktop Wireframe](/docs/step1.png)
+    ![Desktop Wireframe](/docs/step2.png)
+    ![Desktop Wireframe](/docs/step3.png)
+    ![Desktop Wireframe](/docs/step4.png)
+    ![Desktop Wireframe](/docs/step5.png)
+
+    
+
+
 
 
 
