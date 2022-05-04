@@ -279,7 +279,7 @@ footer ul {
 /* Glossary Page */
 
 .hero#hero-glossary-image {
-    background: url('../images/yellow-shopper-bag-on-grass.png') center;
+    background: url('../images/shopper-bag-on-grass-by-tree-min..webp') center;
     background-size: cover;
 }
 
@@ -511,7 +511,7 @@ button {
     }
 
     .hero#hero-glossary-image {
-        background: url('../images/yellow-shopper-bag-on-grass.png') right;
+        background: url('../images/shopper-bag-on-grass-by-tree-min.webp') right;
         background-size: cover;
     }
 
@@ -561,7 +561,7 @@ button {
     }
     
     .hero#hero-glossary-image {
-        background: url('../images/yellow-shopper-bag-on-grass.png') right;
+        background: url('../images/shopper-bag-on-grass-by-tree-small.png') right;
         background-size: cover;
     }
 
