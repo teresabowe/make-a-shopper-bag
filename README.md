@@ -107,6 +107,18 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ![Desktop Wireframe](/assets/images/materials-and-equipment.png)
 
+- __Steps Section__
+
+    - The steps section provides the user detailed instructions on how to construct the bag including information on how to prepare the materials.
+
+    - The images show key points in each step such as creating the french seam or sewing the top of the bag.
+
+    - The user also has the option of clicking through to the glossary page to check out definitions regarding relevant sewing terminology.  This feature is aimed at the beginner crafter.  The experienced crafter can continue on past the links to see quickly how the bag is constructed.
+
+    - The links are the same colour as the call to action on the hero image which is intended to encourage a ckick through to the glossary.
+
+    
+
 
 
 
