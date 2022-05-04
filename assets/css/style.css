@@ -105,7 +105,7 @@ a:active {
 
 .hero-text h2 {
     color: white;
-    background-color:#535C30;
+    background-color:#5C5C42;
     font-size: 2rem;
     padding: 20px;
     margin: 40% 15% 10% 15%;
@@ -114,12 +114,12 @@ a:active {
 }
 
 .hero-text a {
-    color: #281F05;
+    color: #3C3827;
     font-family: 'Montserrat', sans-serif;
-    background-color: #DBA81D;
+    background-color: #E3AF27;
     font-size: 1.75rem;
     font-weight: 700;
-    box-shadow: 0 10px 0 0  #535C30;
+    box-shadow: 0 10px 0 0  #3C3827;
     padding: 10px;
     margin: 10% 15% 10% 15%;
     place-self: center;
@@ -158,7 +158,7 @@ a:active {
 
 #materials-list {
     display: flex;
-    background-color: #D0D1E9;
+    background-color: #dbe1c3;
 }
 
 span {
@@ -191,7 +191,7 @@ h3 {
 }
 
 h3 a {
- color: #BA8524;
+ color: #734c06;
  letter-spacing: normal;
 }
 
@@ -204,7 +204,7 @@ h3 a {
 }
 
 #steps h3 {
-    background-color: #535C30;
+    background-color: #3C3827;
     color: white;
     font-size: 1.25rem;
     margin-left: 5%;
@@ -219,7 +219,7 @@ h3 a {
 }
 
 #steps p a {
-    color: #BA8524;;
+    color: #E3AF27;
     letter-spacing: normal;
 }
 

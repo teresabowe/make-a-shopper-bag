@@ -55,13 +55,20 @@ Once these were mapped it was decided that the opportunity to create and host in
 
 ## Wireframing
 
-As a follow up from defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project my mentor.  This early advice helped keep the design as clean and simple as possible.
+As a follow up to defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project with my mentor.  This early advice helped keep the design as clean and simple as possible.
 
-The Balsamic Wireframe tool was used to produce the initial wireframes.
+The [Balsamic Wireframe](https://fontawesome.com/) tool was used to produce the initial wireframes.
 
 ![Desktop Wireframe](/assets/images/Desktop%20Wireframe%20-%20Home%20Page.png)
 
 ![Tablet and Mobile Wireframe](/assets/images/Tablet%20and%20Mobile%20Wireframe%20-%20Home%20Page.png)
+
+## Colour Scheme and Accessibility
+
+The [Coolers](https://coolors.co/) colour palettes generator helped to work out a colour scheme for the site.  The [Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) then helped to test the foreground and background color combos for compliance with WCAG 2.0 minimum contrast.
+
+![Coolers](https://coolors.co/)
+
 
 
 
