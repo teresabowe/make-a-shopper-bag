@@ -157,7 +157,16 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 - __Features Left to Implement__
 
-    - The co
+    - The creation and hosting of an instructional video was deemed to be not feasible for this release.
+
+    - I believe that a good deal of the site structure and content may be reusable in the future.  For example, I believe that the layout and the styling of the glossary page may be reusable.  This opportunity perhaps was not fully thought out in terms of what the exact requirements were.  
+
+- __Testing__
+
+    - 
+
+
+
 
 
 
