@@ -117,6 +117,14 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The links are the same colour as the call to action on the hero image which is intended to encourage a ckick through to the glossary.
 
+    ![Desktop Wireframe](/assets/images/step1.png)
+    ![Desktop Wireframe](/assets/images/step2.png)
+    ![Desktop Wireframe](/assets/images/step3.png)
+    ![Desktop Wireframe](/assets/images/step4.png)
+    ![Desktop Wireframe](/assets/images/step5.png)
+
+
+
     
 
 
