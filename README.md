@@ -49,6 +49,21 @@ The user stories helped to define the opportunities for the site.  An assessment
 
 The opportunities were mapped so it could be decided which opportunities were going to be considered for this release.
 
- ![Responsive Mockup](/assets/images/ux-strategy.png)
+ ![UX Strategy](/assets/images/ux-strategy.png)
 
 Once these were mapped it was decided that the opportunity to create and host instructional video(s) would be excluded for the initial release. 
+
+## Wireframing
+
+As a follow up from defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project my mentor.  This early advice helped keep the design as clean and simple as possible.
+
+The Balsamic Wireframe tool was used to produce the initial wireframes.
+
+![Desktop Wireframe](/assets/images/Desktop%20Wireframe%20-%20Home%20Page.png)
+
+![Tablet and Mobile Wireframe](/assets/images/Tablet%20and%20Mobile%20Wireframe%20-%20Home%20Page.png)
+
+
+
+
+
