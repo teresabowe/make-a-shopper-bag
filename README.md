@@ -83,6 +83,21 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ![Desktop Wireframe](/assets/images/navigation-bar.png)
 
+- __Landing Page Image__
+
+    - The hero image gives an idea of what the finished shopper bag would look like.  The park setting is intended to give a relaxed casual feel to the user and also to highlight the shopper bag in the foreground.
+
+    - The overlay text of "Make this bag yourself!" attempts to draw the user in to start thinking about making a bag.
+
+    - The call to action of "Get started" offers a link to the materials section of the page where details can be found about fabrics and tools needed.  The font family here is Montserrat also which is the same as the logo text in the navigation bar.
+
+![Desktop Wireframe](/assets/images/hero-image-index-page.png)
+
+
+
+
+
+
 
 
 
