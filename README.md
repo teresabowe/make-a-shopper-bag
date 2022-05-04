@@ -81,7 +81,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The navigation link for the current page is always underlined so that the user is aware of their location on the website.
 
-![Desktop Wireframe](/docs/navigation-bar.png)
+![Navigation Bar](/docs/navigation-bar.png)
 
 - __Landing Page Image__
 
@@ -91,13 +91,13 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The call to action of "Get started" offers both the beginner and the experienced crafter a link to the materials section of the page where details can be found about fabrics and tools needed.  The font family here is Montserrat also which is the same as the logo text in the navigation bar.
 
-![Desktop Wireframe](/docs/hero-image-index-page.png)
+![Hero Image](/docs/hero-image-index-page.png)
 
  - __Bag Gallery Section__
 
     - The bag gallery shows images of the completed bag holding toys, gym training equipment, flowers and groceries.  The intention here is that the images will impress upon the user that it is a multifunctional item so it is worth making the effort to check out the materials needed and the steps involved in the following sections.
 
-![Desktop Wireframe](/docs/bag-gallery.png)
+![Bag Gallery](/docs/bag-gallery.png)
 
 - __Materials and Equipment Section__
 
@@ -105,7 +105,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The icons also provide a visual representation to also quickly show the user these items e.g. sewing machine, thread, pins.  Many of these items most likely owned by the user already.  It is intended that showing these icons provides some immediate imformation thereby putting the beginner crafer at ease.
 
-![Desktop Wireframe](/docs/materials-and-equipment.png)
+![Materials and Equipment](/docs/materials-and-equipment.png)
 
 - __Steps Section__
 
@@ -117,13 +117,21 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - The links are the same colour as the call to action on the hero image which is intended to encourage a ckick through to the glossary.
 
-    ![Desktop Wireframe](/docs/step1.png)
-    ![Desktop Wireframe](/docs/step2.png)
-    ![Desktop Wireframe](/docs/step3.png)
-    ![Desktop Wireframe](/docs/step4.png)
-    ![Desktop Wireframe](/docs/step5.png)
+    ![Step1](/docs/step1.png)
+    ![Step1](/docs/step2.png)
+    ![Step1](/docs/step3.png)
+    ![Step1](/docs/step4.png)
+    ![Step1](/docs/step5.png)
+
+- __The Footer__
+
+    - The footer call to action encourages the user interact with the social media channels.  In this case the most relevant channels are Facebook, Instagram and Pinterest.  
+    
+    - A new tab will be opened to allow the user to to navigate to the desired channel seamlessly.
 
     
+
+
 
 
 
