@@ -298,7 +298,7 @@ dt {
 
 #glossary-body dl,
 dd {
-    font-size: .9rem;
+    font-size: 1.1rem;
     margin: 1rem;
 }
 
@@ -333,6 +333,7 @@ dd {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 #references p {
