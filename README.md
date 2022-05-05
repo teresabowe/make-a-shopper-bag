@@ -202,7 +202,7 @@ Towards the end of the project the pages were tested on the following devices an
 
 ### Unfixed Bugs
 
-An issue that is outstanding at the time of writing this readme is related to the materials section which uses Flexbox to wrap the line items.  The issue appears to show a wider margin on the right side of the listed materials.  The Chrome [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) shows however that there is an overflow on the right margin on the list of items on the left side.  The problem dissapears when the screen is reduced in size and the lines of materials start to wrap.  It is thought that the issue realtes to the id "materials-list" and ul element where there is a flex-basis property setting along with left and right margins.  Further investigation is needed to resolve this issue.
+An issue that is outstanding at the time of writing this readme is related to the materials section which uses Flexbox to wrap the line items.  The issue appears to show a wider margin on the right side of the listed materials.  The Chrome [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) shows however that there is an overflow on the right margin on the list of items on the left side.  The problem dissapears when the screen is reduced in size and the lines of materials start to wrap.  It is thought that the issue relates to the id "materials-list" and ul element where there is a flex-basis property setting along with left and right margins.  Further investigation is needed to resolve this issue.
 
 ![Materials Alignment Issue](/docs/materials-flexbox-issue.png)
 
