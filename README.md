@@ -57,7 +57,7 @@ Once these were mapped it was decided that the opportunity to create and host in
 
 As a follow up to defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project with my mentor.  This early advice helped keep the design as clean and simple as possible.
 
-The [Balsamic Wireframe](https://fontawesome.com/) tool was used to produce the initial wireframes.
+The [Font Awesome](https://fontawesome.com/) tool was used to produce the initial wireframes.
 
 ![Desktop Wireframe](/docs/desktop-wireframe-home-page.png)
 
@@ -197,6 +197,34 @@ Towards the end of the project the pages were tested on the following devices an
 
 ![Step1](/docs/lighthouse-desktop.png)
 ![Step1](/docs/lighthouse-mobile.png)
+
+### Unfixed Bugs
+
+
+
+## Deployment
+
+
+## Credits
+
+### Content
+
+- The materials icons are from the [Flaticon](https://flaticon.com/) website.  Specifically these are:
+    - [Cut Icons](https://www.flaticon.com/free-icons/cut/) created by Freepik - Flaticon.
+    - [Sewing Icons](https://www.flaticon.com/free-icons/sewing) created by designvector10 and Freepik - Flaticon.
+    - [Fabric Icons](https://www.flaticon.com/free-icons/fabric) created by shmai and Freepik - Flaticon.
+    - [Ruler Icons](https://www.flaticon.com/free-icons/ruler) created by Good Ware - Flaticon.
+    - [Iron Icons](https://www.flaticon.com/free-icons/iron) created by Those Icons - Flaticon.
+
+- How to combine flexbox and CSS Grid from [Getflywheel](https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/).
+
+- Learning about CSS Grid from [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+
+- Responsive grid tutorial from [Angela Delise](https://youtu.be/68O6eOGAGqA).
+
+### Media
+
+The photos for the web pages were taken by myself.
 
 
 
