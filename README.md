@@ -222,6 +222,8 @@ Towards the end of the project the pages were tested on the following devices an
 
 - Responsive grid tutorial from [Angela Delise](https://youtu.be/68O6eOGAGqA).
 
+- Creating forms from [Envato Tuts+](https://webdesign.tutsplus.com/tutorials/how-to-build-web-form-layouts-with-css-grid--cms-28776).
+
 ### Media
 
 The photos for the web pages were taken by myself.
