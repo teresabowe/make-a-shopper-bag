@@ -164,7 +164,9 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ## Testing
 
-Initially all device testing was simulated on the Developer Tools on Google Chrome Version 101.0.4951.54.  As each feature of the product was being developed, it was tested on Google Chrome to check that it was functioning correctly and also that the responsiveness was as expected. 
+Initially all device testing was simulated on the Developer Tools on Google Chrome Version 101.0.4951.54.  As each feature of the product was being developed, it was tested on Google Chrome to check that it was functioning correctly and also that the responsiveness was as expected.  Any issues in the code were resolved as the project was being developed.
+
+While the pages are developed for responsiveness using CSS Grid, some of the sections use Flexgrid. One of these is the header section.  An issue that was highlighted during the testing and proved challenging was the centering of both the Logo text and the navigation items once the header was wrapped for responsiveness.  The Chrome [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) showed that the problem existed on the navigation items where the contact link had a right hand margin.  The solution found was to create a specific id for the line item called "no-right-margin".  The CSS code then had a margin-right of 0px for this id.
 
 Towards the end of the project the pages were tested on the following devices and browsers:
 
@@ -195,11 +197,14 @@ Towards the end of the project the pages were tested on the following devices an
 
     - The current results are shown below:
 
-![Step1](/docs/lighthouse-desktop.png)
-![Step1](/docs/lighthouse-mobile.png)
+        ![Lighthouse Desktop](/docs/lighthouse-desktop.png)
+        ![Lighthouse Mobile](/docs/lighthouse-mobile.png)
 
 ### Unfixed Bugs
 
+An issue that is outstanding at the time of writing this readme is related to the materials section which uses Flexbox to wrap the line items.  The issue appears to show a wider margin on the right side of the listed materials.  The Chrome [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) shows however that there is an overflow on the right margin on the list of items on the left side.  The problem dissapears when the screen is reduced in size and the lines of materials start to wrap.  
+
+![Materials Alignment Issue](/docs/materials-flexbox-issue.png)
 
 ## Deployment
 
