@@ -204,6 +204,15 @@ Towards the end of the project the pages were tested on the following devices an
 
 ## Deployment
 
+    - This site has been deployed to Github pages.  To deploy a project the following steps are necessary:
+
+        - From repository list select the repository being deployed.
+        - Select the settings tab for that repository.
+        - Click on the Pages tab and find the Source section.
+        - Click on the dropdown and select the Main branch.
+        - The live link will be shown once the deployment is complete.
+
+The live link is available on: https://teresabowe.github.io/make-a-shopper-bag/index.html
 
 ## Credits
 
