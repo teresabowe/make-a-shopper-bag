@@ -53,7 +53,7 @@ The opportunities were mapped so it could be decided which opportunities were go
 
 Once these were mapped it was decided that the opportunity to create and host instructional video(s) would be excluded for the initial release. 
 
-## Wireframing
+### Wireframing
 
 As a follow up to defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project with my mentor.  This early advice helped keep the design as clean and simple as possible.
 
@@ -63,7 +63,7 @@ The [Balsamic Wireframe](https://fontawesome.com/) tool was used to produce the 
 
 ![Tablet and Mobile Wireframe](/docs/tablet-and-mobile-wireframe-home-page.png)
 
-## Colour Scheme and Accessibility
+### Colour Scheme and Accessibility
 
 The [Coolers](https://coolors.co/) colour palettes generator helped to work out a colour scheme for the site.  The [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) then helped to test the foreground and background color combos for compliance with WCAG 2.0 minimum contrast.
 
@@ -72,8 +72,9 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 ## Features
 
 
-- __Navigation Bar__
+### Existing Features
 
+- __Navigation Bar__
 
     - The navigation bar design is common across all pages.  There is logo text on the left side and the navigation links of Home, Glossary and Contact on the right side.  The font family of Montserrat for the logo makes it distinctive from the other font of Open Sans for the navigation links.  The logo text provides a link back to the home page from the other pages.
 
@@ -152,18 +153,53 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - Once the send button is clicked the user is presented with a thank you page which is triggered by a GET method in the form element.  This page is not visible from the navigation menu but contains the navigation bar to allow for further browsing by the user.
 
-    ![Step1](/docs/contact-page.png)
-    ![Step1](/docs/thankyou-page.png)
+    ![Contact Page](/docs/contact-page.png)
+    ![Thank YOu Page](/docs/thankyou-page.png)
 
-- __Features Left to Implement__
+### Features Left to Implement
 
     - The creation and hosting of an instructional video was deemed to be not feasible for this release.
 
     - I believe that a good deal of the site structure and content may be reusable in the future.  For example, I believe that the layout and the styling of the glossary page may be reusable.  This opportunity perhaps was not fully thought out in terms of what the exact requirements were.  
 
-- __Testing__
+## Testing
 
-    - 
+Initially all device testing was simulated on the Developer Tools on Google Chrome Version 101.0.4951.54.  As each feature of the product was being developed, it was tested on Google Chrome to check that it was functioning correctly and also that the responsiveness was as expected. 
+
+Towards the end of the project the pages were tested on the following devices and browsers:
+
+- Windows 11 Home on HP Pavilion Laptop with 1920p x 1080p display
+    - Google Chrome Version 101.0.4951.54
+    - Microsoft Edge Version 101.0.1210.32 
+    - Firefox Version 100
+
+- iOS 15.4.1 on iPhone with 2340p x 1080p display
+    - iOS Safari
+
+### Validator Testing
+
+- __HTML__
+    - When the code is passed through the official W3C Validator, there are currently no errors or warnings showing.
+
+    - In the early development stage the validator would show errors where div elements were not closed correctly.
+
+    - When fixing some issues with performance and image size, the validator showed that there was a missing parameter on an img element using the srcset attribute.
+
+- __CSS__   
+    - When the code is passed through the official CSS W3C Jigsaw Validator, there are currently no errors or warnings showing.
+
+- __Lighthouse__   
+    - The Chrome Lighthouse tool was used to check performance, accessibility, best proctice and SEO.  Initially the performance was in the amber region for both desktop and mobile.  The largest image files were compressed, however there was still an amber result for both devices.  The Chrome Lighthouse tool suggested that the files be converted to .webp format.  This was subsequently done but there was still performance issues.  Further suggestions were to serve responsive images by creating media queries and using reduced size images for mobile devices.
+
+![Step1](/docs/lighthouse-desktop.png)
+![Step1](/docs/lighthouse-mobile.png)
+
+
+
+
+
+
+
 
 
 
