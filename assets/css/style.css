@@ -277,7 +277,7 @@ footer ul {
     color: black;
 }
 
-/* Glossary Page */
+/* Glossary Page Styling*/
 
 .hero#hero-glossary-image {
     background: url('../images/shopper-bag-on-grass-by-tree-min.webp') center;
@@ -345,7 +345,7 @@ dd {
    color: #c08719;
 }
 
-/* Contact Page */
+/* Contact Page Styling*/
 
 
 .hero#hero-contact-image {
@@ -424,7 +424,7 @@ button {
     padding: .5em;
 }
 
-/* thank you page */
+/* Thank You Page Styling */
 
 .hero-thank-you-text {
     grid-column: 1 / 7;
@@ -440,6 +440,8 @@ button {
 } 
 
 /* media queries */
+
+/* For larger to medium size screens size from 1024px wide and down */
 
 @media only screen and (max-width:1024px) {
 
@@ -491,6 +493,8 @@ button {
     }
 }
 
+/* For medium size screens size from 768px wide and down */
+
 @media only screen and (max-width:768px) {
 
     .container {
@@ -505,6 +509,8 @@ button {
     .header {
         justify-content: space-around;
     }
+
+    /* remove right margin for navigation contact */
 
     #no-right-margin {
         margin-right: 0px;
@@ -544,6 +550,8 @@ button {
         width: 60%;
     }
 }
+
+/* For smaller size screens size from 480px wide and down */
 
 @media only screen and (max-width:480px) {
     .container {
