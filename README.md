@@ -206,6 +206,8 @@ An issue that is outstanding at the time of writing this readme is related to th
 
 ![Materials Alignment Issue](/docs/materials-flexbox-issue.png)
 
+Firefox Version 100 has a slightly grainy appearance for Open Sans in the header section.  At the time of writing this readme this has not been resolved.
+
 ## Deployment
 
 - This site has been deployed to Github pages.  To deploy a project the following steps are necessary:
