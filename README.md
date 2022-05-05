@@ -57,7 +57,7 @@ Once these were mapped it was decided that the opportunity to create and host in
 
 As a follow up to defining the UX strategy, a series of basic wireframes was developed to assist with the development of the website.  These proved useful in the initial stages when discussing the project with my mentor.  This early advice helped keep the design as clean and simple as possible.
 
-The [Font Awesome](https://fontawesome.com/) tool was used to produce the initial wireframes.
+The [Balsamiq Wireframes](https://balsamiq.com/) tool was used to produce the initial wireframes.
 
 ![Desktop Wireframe](/docs/desktop-wireframe-home-page.png)
 
@@ -65,7 +65,7 @@ The [Font Awesome](https://fontawesome.com/) tool was used to produce the initia
 
 ### Colour Scheme and Accessibility
 
-The [Coolers](https://coolors.co/) colour palettes generator helped to work out a colour scheme for the site.  The [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) then helped to test the foreground and background color combos for compliance with WCAG 2.0 minimum contrast.
+The [Coolers](https://coolors.co/) colour palettes generator helped to work out a colour scheme for the site.  The [Eight Shapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) then helped to test the foreground and background color combinations for compliance with WCAG 2.0 minimum contrast.
 
 ![Eight Shapes Contrast Grid](/docs/eight-shapes-contrast-grid.png)
 
@@ -104,7 +104,7 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
     - This section tells the user exactly what quantity of material and which tools are essential to make the bag.
 
-    - The icons also provide a visual representation to also quickly show the user these items e.g. sewing machine, thread, pins.  Many of these items most likely owned by the user already.  It is intended that showing these icons provides some immediate imformation thereby putting the beginner crafer at ease.
+    - The icons also provide a visual representation to also quickly show the user these items e.g. sewing machine, thread, pins.  Many of these items most likely are owned by the user already.  It is intended that showing these icons provides some immediate imformation thereby putting the beginner crafer at ease.
 
 ![Materials and Equipment](/docs/materials-and-equipment.png)
 
@@ -158,9 +158,9 @@ The [Coolers](https://coolors.co/) colour palettes generator helped to work out 
 
 ### Features Left to Implement
 
-    - The creation and hosting of an instructional video was deemed to be not feasible for this release.
+- The creation and hosting of an instructional video was deemed to be not feasible for this release.
 
-    - I believe that a good deal of the site structure and content may be reusable in the future.  For example, I believe that the layout and the styling of the glossary page may be reusable.  This opportunity perhaps was not fully thought out in terms of what the exact requirements were.  
+- I believe that a good deal of the site structure and content may be reusable in the future.  For examplethe layout and the styling of the glossary page may be reusable.  This opportunity perhaps was not fully thought out in terms of what the exact requirements were.  
 
 ## Testing
 
@@ -201,16 +201,15 @@ Towards the end of the project the pages were tested on the following devices an
 ### Unfixed Bugs
 
 
-
 ## Deployment
 
-    - This site has been deployed to Github pages.  To deploy a project the following steps are necessary:
+- This site has been deployed to Github pages.  To deploy a project the following steps are necessary:
 
-        - From repository list select the repository being deployed.
-        - Select the settings tab for that repository.
-        - Click on the Pages tab and find the Source section.
-        - Click on the dropdown and select the Main branch.
-        - The live link will be shown once the deployment is complete.
+    - From repository list select the repository being deployed.
+    - Select the settings tab for that repository.
+    - Click on the Pages tab and find the Source section.
+    - Click on the dropdown and select the Main branch.
+    - The live link will be shown once the deployment is complete.
 
 The live link is available on: https://teresabowe.github.io/make-a-shopper-bag/index.html
 
@@ -234,6 +233,8 @@ The live link is available on: https://teresabowe.github.io/make-a-shopper-bag/i
 - Creating forms from [Envato Tuts+](https://webdesign.tutsplus.com/tutorials/how-to-build-web-form-layouts-with-css-grid--cms-28776).
 
 ### Media
+
+The drawing for the materials image was created on [Lucidchart](https://www.lucidchart.com/pages/).
 
 The photos for the web pages were taken by myself.
 
